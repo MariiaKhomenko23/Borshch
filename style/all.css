@@ -1,0 +1,337 @@
+body{
+    background-color: lightyellow;
+    margin: 0;
+    color: brown;
+    font: 400 18px/28px Pacifico, sans-serif;
+}
+.container{
+    /*width: 1448px;*/
+    margin: 0 auto;
+    padding: 15px;
+}
+.header{
+    display: flex;
+    padding: 36px 0 0;
+    justify-content: space-between;
+}
+.header__box{
+    display: flex;
+    align-items: center;
+    gap: 68px;
+}
+.nav__list {
+    display: flex;
+    list-style: none;
+    gap: 48px;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600;
+}
+.link{
+    color: darkred;
+    text-decoration: none;
+}
+.btn-box {
+    display: flex;
+    gap: 80px;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 75px 0;
+}
+.logo{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    color: red;
+    text-decoration: none;
+}
+.header__link{
+    color: darkred;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.header__btn{
+    background: red;
+    color: white;
+    padding: 12px 37px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 700;
+}
+.offer{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 230px;
+    background: url("../img/chef.jpg") 100% 100% no-repeat;
+}
+.offer__holder{
+    /*width: 648px;*/
+    background: url("../img/plum-5.png") 50% 60% no-repeat;
+}
+.offer__title {
+    font-size: 58px;
+    line-height: 70px;
+    font-weight: 700;
+    margin: 0 0 18px;
+}
+.offer__description{
+    font-size: 18px;
+    line-height: 28px;
+    margin: 0 0 62px;
+}
+.button{
+    background: red;
+    color: white;
+    border: none;
+    padding: 16px 37px;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 700;
+    margin: 0 0 110px;
+}
+.offer__sale{
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 70px;
+    margin: 0;
+}
+.offer__time{
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 700;
+    margin: 0 0 110px;
+}
+.offer__list{
+    align-self: flex-end;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    flex-grow: 1;
+    position: relative;
+}
+.offer__item{
+    position: absolute;
+    border: 2px solid red;
+    padding: 16px 36px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+}
+.offer__history{
+    top: -550px;
+    right: -1250px;
+}
+.offer__ingredients{
+    top: -750px;
+    right: -1050px;
+}
+.offer__recipes{
+    top: -600px;
+    left: 600px;
+}
+.offer__video{
+    top: -400px;
+    left: 400px;
+}
+.offer__serving{
+    top: -100px;
+    left: 300px;
+}
+.offer__photo{
+    top: 100px;
+    left: 500px;
+}
+.learn-container{
+    background: yellowgreen;
+    color: purple;
+    display: flex;
+    gap: 55px;
+    justify-content: flex-start;
+    /*width: 1440px;*/
+    height: 400px;
+    padding: 50px 0 0 80px;
+}
+.learn__title{
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 70px;
+    /*width: 539px;*/
+    padding: 28px;
+    margin: 0 62px;
+}
+.learn__counter{
+    display: flex;
+    gap: 80px;
+    justify-content: flex-end;
+    padding: 20px 75px 0;
+}
+.learn__counter-number {
+    display: flex;
+    gap: 80px;
+    justify-content: flex-start;
+    font-size: 58px;
+    line-height: 70px;
+    font-weight: 700;
+}
+.learn__counter-discription {
+    display: flex;
+    gap: 80px;
+    justify-content: flex-start;
+    font-size: 25px;
+    line-height: 25px;
+    font-weight: 400;
+    border-style: none none solid;
+}
+.discover__all{
+    display: flex;
+    gap: 80px;
+    justify-content: space-between;
+}
+.discover__title{
+    padding: 0 25px 0;
+}
+.discover__list{
+    display: flex;
+    gap: 40px;
+    justify-content: flex-start;
+    padding: 25px;
+    list-style: none;
+}
+.discover__see-more{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 25px;
+    font-weight: 400;
+    font-size: 24px;
+    text-decoration: none;
+}
+.discover__cards{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 24px;
+}
+.find-program{
+   display: flex;
+   padding: 24px;
+   background: lavenderblush;
+}
+.find-program__form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    padding: 25px;
+}
+.find-program__find{
+    padding: 0 40px 0 600px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+}
+.container-f{
+    /*width: 1332px;*/
+    margin: 0 auto;
+    background: lightgreen;
+}
+.footer{
+    display: flex;
+    padding: 68px 24px 0;
+    justify-content: space-between;
+}
+.footer_logo{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    color: red;
+    text-decoration: none;
+}
+.footer_tel1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-decoration: none;
+    color: darkred;
+}
+.sitemap__title{
+    display: flex;
+    gap: 200px;
+    padding: 0 40px 0;
+    margin: 0;
+}
+.sitemap__list1{
+    display: flex;
+    gap: 200px;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: darkgreen;
+}
+.sitemap__list1-1{
+    list-style: none;
+}
+.sitemap__list1-c{
+    display: flex;
+    align-items: center;
+    line-height: 118px;
+    font-weight: 400;
+    font-size: 18px;
+}
+.sitemap__list2{
+    display: flex;
+    gap: 200px;
+    padding: 250px 28px 30px 0;
+    margin: 0;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: dimgrey;
+    position: relative;
+    left: -450px;
+}
+.learn__counter-number{
+    margin: 0 0 10px;
+}
+
+@media  screen and (min-width: 390px) and (max-width: 1439px){
+    .learn__counter-item{
+        flex: 1 1 100%;
+        gap: 10px;
+    }
+    .learn-container{
+        flex-wrap: wrap;
+    }
+    .learn__counter-number{
+        margin: 10px 0;
+    }
+    .learn__text{
+        width: auto;
+    }
+    .learn__counter{
+        flex-wrap: wrap;
+    }
+}
+.discover__cards {
+    display: none;
+}
+.discover__cards.active{
+    display: flex;
+}
+.discover__button.active{
+    background: firebrick;
+}
